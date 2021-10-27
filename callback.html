@@ -32,22 +32,365 @@
 <!-- UI implementation -->
 
 <body>
-  <div class="page">
-    <div class="data">
-      <label>window.Magic.user.getIdToken()</label>
-      <pre id="idToken">Loading...</pre>
-    </div>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>RecordRocks</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
 
-    <div class="data">
-      <label>window.Magic.user.getMetadata()</label>
-      <pre id="userMetadata">Loading...</pre>
-    </div>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <div class="data">
-      <label>window.Magic.oauth.getRedirectResult()</label>
-      <pre id="oauth">Loading...</pre>
-    </div>
+	<link rel="stylesheet" href="css/animate.css">
+	
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="/">RecordRocks</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
 
-    <a href="/logout">Logout</a>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#whyus" class="nav-link">Why us?</a></li>
+					<li class="nav-item"><a href="#order" class="nav-link">Order</a></li>
+					<li class="nav-item"><a href="https://recordrocks.blogspot.com/" class="nav-link">Blog</a></li>
+					<li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
+                    <li class="nav-item"><a href="/" class="nav-link">Logout</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- END nav -->
+
+	<section class="hero-wrap degree-right js-fullheight">
+		<div class="home-slider js-fullheight owl-carousel">
+			<div class="slider-item js-fullheight" style="background-image:url(images/bg_1.jpg);">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row no-gutters slider-text js-fullheight align-items-center">
+						<div class="col-md-12 ftco-animate">
+							<div class="absolute">
+								<p></p>
+							</div>
+							<div class="text">
+								<h1 class="mb-4">More than a rock business.</h1>
+								<p>We are a community and with your help, we can thrive.</p>
+								<p class="mb-0"><a href="#order" class="btn btn-primary py-md-3 py-2 px-2 px-md-4">Order</a></p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="slider-item js-fullheight" style="background-image:url(images/bg_2.jpg);">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row no-gutters slider-text js-fullheight align-items-center">
+						<div class="col-md-12 ftco-animate">
+							<div class="absolute">
+								<p></p>
+							</div>
+							<div class="text">
+								<h1 class="mb-4">More than a rock business.</h1>
+								<p>We are a community and with your help, we can thrive.</p>
+								<p class="mb-0"><a href="#order" class="btn btn-primary py-md-3 py-2 px-2 px-md-4">Order</a></p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="whyus" class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center no-gutters">
+				<div class="col-md-12 heading-section text-center ftco-animate mb-5">
+					<h2 class="mb-2">Why us?</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md d-flex align-items-stretch ftco-animate">
+					<div class="media block-6 w-100 services d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-"></span></div>
+						<div class="media-body py-md-4">
+							<h3>Excellent service</h3>
+						</div>
+					</div>      
+				</div>
+				<div class="col-md d-flex align-items-stretch ftco-animate">
+					<div class="media block-6 w-100 services d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-web-"></span></div>
+						<div class="media-body py-md-4">
+							<h3>Customer support</h3>
+						</div>
+					</div>      
+				</div>
+				<div class="col-md d-flex align-items-stretch ftco-animate">
+					<div class="media block-6 w-100 services d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-"></span></div>
+						<div class="media-body py-md-4">
+							<h3>Unbeatable quality</h3>
+						</div>
+					</div>      
+				</div>
+				<div class="col-md d-flex align-items-stretch ftco-animate">
+					<div class="media block-6 w-100 services d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-"></span></div>
+						<div class="media-body py-md-4">
+							<h3>Easy-to-use ordering</h3>
+						</div>
+					</div>      
+				</div>
+				<div class="col-md d-flex align-items-stretch ftco-animate">
+					<div class="media block-6 w-100 services d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-"></span></div>
+						<div class="media-body py-md-4">
+							<h3>Trust the clients</h3>
+						</div>
+					</div>      
+				</div>
+			</div>
+			<div class="row wrap-about my-5">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-6 order-md-last ftco-animate d-flex">
+							<div class="img w-100" style="background-image: url(images/about.jpg);"></div>
+						</div>
+						<div class="col-md-6 ftco-animate">
+							<div class="text text-md-right">
+								<h3>Welcome to RecordRocks</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="text">
+						<p><a href="#order" class="btn btn-primary">Order</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-5">
+				
+			</div>
+		</div>
+	</section>
+
+	<section id="order" class="ftco-section ftco-portfolio bg-light">
+		<div class="row justify-content-center no-gutters">
+			<div class="col-md-12 heading-section text-center ftco-animate mb-5">
+				<h2 class="mb-2">Our Rocks</h2>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row no-gutters">
+				<div class="col-md-12 portfolio-wrap mt-0">
+					<div class="row no-gutters align-items-center">
+						<div class="col-md-5 img" style="background-image: url(images/gravel.jpg);">
+							
+						</div>
+						<div class="col-md-7">
+							<div class="text pt-5 pl-0 pl-lg-5 pl-md-4 ftco-animate">
+								<div class="px-4 px-lg-4">
+									<div class="desc">
+										<div class="top">
+											<h2 class="mb-2">Gravel (10p)</h2>
+										</div>
+										<div class="absolute">
+
+											<div class="icon d-flex align-items-center mb-4">
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-12 portfolio-wrap">
+					<div class="row no-gutters align-items-center">
+						<div class="col-md-5 order-md-last img" style="background-image: url(images/normal.jpg);">
+							
+						</div>
+						<div class="col-md-7">
+							<div class="text pt-5 pr-md-5 ftco-animate">
+								<div class="px-4 px-lg-4">
+									<div class="desc text-md-right">
+										<div class="top">
+											<h2 class="mb-2">Normal rock (24p)</h2>
+										</div>
+										<div class="absolute">
+
+											<div class="d-flex w-100">
+												<div class="icon d-flex align-items-center ml-md-auto mb-4">
+													<div class="position pl-3 text-left">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-12 portfolio-wrap">
+					<div class="row no-gutters align-items-center">
+						<div class="col-md-5 img" style="background-image: url(images/slates.jpg);">
+							
+						</div>
+						<div class="col-md-7">
+							<div class="text pt-5 pl-md-5 pl-md-4 ftco-animate">
+								<div class="px-4 px-lg-4">
+									<div class="desc">
+										<div class="top">
+											<h2 class="mb-2">Slates (30p)</h2>
+										</div>
+										<div class="absolute">
+									
+											<div class="icon d-flex align-items-center mb-4">
+												<div class="position pl-3">
+												
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-12 portfolio-wrap">
+					<div class="row no-gutters align-items-center">
+						<div class="col-md-5 order-md-last img" style="background-image: url(images/rainrocks.jpg);">
+							
+						</div>
+						<div class="col-md-7">
+							<div class="text pt-5 pr-md-5 ftco-animate">
+								<div class="px-4 px-lg-4">
+									<div class="desc text-md-right">
+										<div class="top">
+											<h2 class="mb-2">Rainrocks (50p)</h2>
+										</div>
+										<div class="absolute">
+											
+											<div class="d-flex w-100">
+												<div class="icon d-flex align-items-center ml-md-auto mb-4">
+													<div class="position pl-3 text-left">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-12 portfolio-wrap">
+					<div class="row no-gutters align-items-center">
+						<div class="col-md-5 img" style="background-image: url(images/exotic.jpg);">
+							
+						</div>
+						<div class="col-md-7">
+							<div class="text pt-5 pl-md-5 pl-md-4 ftco-animate">
+								<div class="px-4 px-lg-4">
+									<div class="desc">
+										<div class="top">
+											<h2 class="mb-2">Exotic (£2.50)</h2>
+										</div>
+										<div class="absolute">
+									
+											<div class="icon d-flex align-items-center mb-4">
+												<div class="position pl-3">
+											
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+                                                	<!-- form.123formbuilder.com script begins here --><script type="text/javascript" defer src="https://form.123formbuilder.com/embed/5955362.js?type=lightbox" data-role="form" data-default-width="650px"data-embed-type="lightbox-image-link" data-embed-image-link="https://recordrocks.com/order.jpg"></script><!-- form.123formbuilder.com script ends here -->
+				</div>
+			</div>
+		</div>
+		<div class="degree-left">
+        </div>
+	</section>
+
+
+			
+	<section id="reviews" class="ftco-section bg-light">
+        					<h2 class="mb-3">Clients Says About Us?</h2>
+
+	<h3>Customer Reviews</h3><!-- Start BawkBox Code--><script data-sil-id="6175268a4832f3001e4299c2">var loadWidget = function() { var d = document, w = window, l = window.location,p = l.protocol == "file:" ? "http://" : "//"; if (!w.WS) w.WS = {}; c = w.WS; var m=function(t, o){ var e = d.getElementsByTagName("script"); e=e[e.length-1]; var n = d.createElement(t); if (t=="script") {n.async=true;} for (k in o) n[k] = o[k]; e.parentNode.insertBefore(n, e)}; m("script", { src: p + "bawkbox.com/widget/star-rating/6175268a4832f3001e4299c2?page=" +encodeURIComponent(l+''), type: 'text/javascript' }); c.load_net = m; }; if(window.Squarespace){ document.addEventListener('DOMContentLoaded', loadWidget); setTimeOut(function(){ document.addEventListener('DOMContentLoaded', loadWidget); }, 3000) } else { loadWidget() } </script><script type="application/ld+json" src="/widget/star-rating/6175268a4832f3001e4299c2/microdata"></script><div class="sil-widget-star-rating sil-widget" id="sil-widget-6175268a4832f3001e4299c2"><a href="//bawkbox.com/install/star-rating">Customer Reviews</a></div><!-- End BawkBox Code-->
+	</section>		
+
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md">
+
+			<div class="row">
+				<div class="col-md-12 text-center">
+					
+					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This site is made with <i class="fa fa-heart" aria-hidden="true"></i> by me.
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		
+
+		<!-- loader -->
+		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-migrate-3.0.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/jquery.animateNumber.min.js"></script>
+		<script src="js/scrollax.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+		<script src="js/google-map.js"></script>
+		<script src="js/main.js"></script>
+		
+	</body>
+	</html>
+
   </div>
 </body>
